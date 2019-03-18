@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+  android:background="@drawable/backnew"
+
+    tools:context="com.example.aayushgarg.rtu_old_paper.Login_Page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp"
+           android:src="@drawable/log2"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/usernameLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/gmail"
+            android:ems="10"
+            android:hint="Email id"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:textColorHint="#000000" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordLogin"
+            android:inputType="textPassword"
+            android:ems="10"
+
+android:drawableRight="@drawable/pass"
+            android:drawablePadding="10dp"
+            android:padding="8dp"
+            android:maxLines="1"
+            android:hint="PassWord"
+            android:textColorHint="#000000"
+            android:layout_marginTop="10dp" />
+
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign in "
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+
+            android:alpha="0.6"
+          android:background="@color/colorAccent"
+            android:textAllCaps="false"
+            android:padding="16dp"
+            android:clickable="true" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/forgetButton"
+            android:layout_width="match_parent"
+            android:text="Forget password >>>"
+            android:padding="16dp"
+        android:textColor="#000000"
+         android:textSize="15dp"
+            android:clickable="true"
+
+            android:layout_marginBottom="16dp"
+            android:layout_height="wrap_content" />
+
+
+
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textAllCaps="false"
+            android:padding="16dp"
+            android:clickable="true" />
+
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+
+
+
+
+
+
+
+</LinearLayout>

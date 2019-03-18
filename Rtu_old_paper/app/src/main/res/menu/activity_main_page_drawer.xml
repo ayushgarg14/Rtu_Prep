@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+
+    <group android:checkableBehavior="single">>
+        <item
+            android:icon="@drawable/home"
+            android:title="Home"
+
+            />
+        <item
+
+            android:id="@+id/Download"
+            android:icon="@drawable/download"
+            android:title="Download's"
+
+            />
+
+        <item
+
+            android:id="@+id/Aboutus"
+            android:icon="@drawable/aboutus"
+            android:title="Contact Us" />
+
+        <item
+
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:title="Help"
+
+            />
+
+        <item
+
+            android:id="@+id/Shareapp"
+            android:icon="@drawable/singout"
+            android:title="Share App" />
+
+
+        <item
+
+            android:id="@+id/SignOut"
+            android:icon="@drawable/singout"
+            android:title="Logout" />
+
+    </group>
+
+
+
+</menu>

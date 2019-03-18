@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+   android:layout_marginTop="150dp"
+    android:background="@drawable/pali"
+    tools:context="com.example.aayushgarg.rtu_old_paper.dumy"
+    tools:showIn="@layout/activity_dumy">
+    <GridLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="9"
+        android:alpha="0.9"
+
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+
+        android:rowCount="3">
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="22dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bound"
+
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:text=""
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"
+                    android:id="@+id/contant1"
+                    />
+
+                <TextView
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/contant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/contant1"
+                    android:layout_toRightOf="@+id/contant1"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"
+                    android:text="wait data fatching for server" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="22dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bound"
+
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:text="Contact Details-"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"
+                    android:id="@+id/textView" />
+
+                <TextView
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/textView"
+                    android:layout_toRightOf="@+id/textView"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"
+                    android:text="wait data fatching for server" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="22dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bound"
+
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:text="Address :-"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"
+                    android:id="@+id/address" />
+
+                <TextView
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/address1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/address"
+                    android:layout_toRightOf="@+id/address"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"
+                    android:text="wait data fatching for server" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </GridLayout>
+    <!--<TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:id="@+id/tranningaddtext"
+        android:text="Wait for Faching Data from server" />-->
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aayushgarg.rtu_old_paper.Help"
+    android:background="@drawable/pali"
+    >
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginLeft="133dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/log2" />
+
+    <Button
+        android:id="@+id/mail_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:background="#1d1d1d"
+        android:textColor="#ffffff"
+        android:text="Mail for query..." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_alignLeft="@+id/mail_us"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/mail_us"
+        android:layout_marginTop="100dp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:text="@string/help_contant"
+        />
+
+
+</RelativeLayout>

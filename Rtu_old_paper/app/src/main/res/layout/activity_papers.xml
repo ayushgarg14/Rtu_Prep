@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/pali"
+    tools:context="com.example.aayushgarg.rtu_old_paper.Papers">
+
+
+
+
+
+
+        <android.support.v7.widget.RecyclerView
+           android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+
+            android:id="@+id/recpaper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+
+    
+</LinearLayout>

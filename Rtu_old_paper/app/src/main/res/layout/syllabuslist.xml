@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d3d3d3"
+
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+
+            android:id="@+id/syllabusname2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/year2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/subjectName1"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

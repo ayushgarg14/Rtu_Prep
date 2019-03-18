@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aayushgarg.rtu_old_paper.Books">
+    <ImageView
+        android:id="@+id/Bookadd"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="#000000"
+        />
+    <include layout="@layout/contant_tranning" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabforbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="127dp"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:layout_editor_absoluteX="344dp"
+        tools:layout_editor_absoluteY="133dp" />
+</RelativeLayout>

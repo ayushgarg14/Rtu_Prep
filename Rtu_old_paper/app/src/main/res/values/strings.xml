@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Exam Prep </string>
+
+
+    <string name="hint_email">Email</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="email">aayushgarg14@gmail.com</string>
+    <string name="help_contant">"1) This app is only for those students who are  studying in colleges affiliated by Rajasthan Technical University (RTU).\n\n2) This app is only for Bachelor of technology (B.Tech) students.\n\n3) If there is any query related to this app or the content in this app then there is a mail option avaliable below.\n\n 4) If you feel that paper of any year and of any subject is missing please feel free to mail us.\n\nThanks for using this app"
+</string>
+    <string name="about_us_contant">"This app was developed by Aayush , as he came to know about the problems faced by students at the time of examination .The problem like not getting the useful content like previous years papers and latest syllabus of all the subject and of all branches.\nThis app is the soluction for all problems like these.\n"
+    </string>
+    <string name="title_activity_tranning">Tranning</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dumy">dumy</string>
+
+    <string name="first_year_tag">FIRST_YEAR</string>
+    <string name="secound_year_tag">SECOUND_YEAR</string>
+    <string name="third_year_tag">THIRD_YEAR</string>
+    <string name="forth_year_tag">FORTH_YEAR</string>
+    <string name="paper_tag">PAPER</string>
+
+
+</resources>
